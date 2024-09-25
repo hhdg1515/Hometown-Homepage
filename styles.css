@@ -1,0 +1,97 @@
+
+body {
+    margin: 0;
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+    text-align: center;
+    color: whitesmoke;
+}
+
+img {
+    width: 64%;
+}
+
+.Hero {
+    background-image: url("https://images.unsplash.com/photo-1533282960533-51328aa49826?q=80&w=2142&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D");
+    background-size: cover;
+    height: 520px;
+    text-shadow: 3px 3px 5px #FDC4B5;
+    padding: 200px 0;
+}
+
+.hero-title{
+    margin: 0, auto;
+}
+
+.activities {
+    background:linear-gradient(#C9B8A6,#D2B9BC);
+    margin: 0;
+    padding:12px 0 12px 0;
+    text-shadow: 1px 1px 4px #9DC9EC;
+}
+
+.beach {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    margin: 8px auto;
+    background:linear-gradient(#B9B0A0,#FFBD70);
+    border-top: 16px solid #C9B8A6;
+}
+
+.beach-text{
+     margin: 0 24px;
+}
+
+.hollywood {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    margin: 0 auto;
+    background:linear-gradient(#8CBDE6,#D8AC93);
+}
+
+.hollywood-text{
+    margin: 0 24px;
+}
+
+.griffth {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    margin: 16px auto 0 auto;
+    background:linear-gradient(#AFCEFD,#588383);
+}
+
+.griffth-text{
+    margin: 0 24px;
+}
+
+.card {
+    display: flex;
+    justify-content: space-around;
+    width: 400px;
+    color: #475361;
+    text-align: center;
+    margin: 0 auto ;
+    padding: 20px;
+    background-color: #ddebf8;
+    border-radius: 8px;
+    border-bottom: 4px solid #D8AC93;
+}
+
+.avatar {
+    width: 50%;
+}
+
+footer {
+    background: linear-gradient(#FDC4B5,#C1D9EB);
+    margin: 0;
+    border-bottom: 16px solid #C1D9EB;
+    padding: 16px;
+}
